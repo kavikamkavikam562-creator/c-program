@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main() {
+     char alph;
+     scanf("%c",&alph);
+     printf("%c",alph);
+     return 0;
+
+}

@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    int N,K;
+    printf("Enter the number:");
+    scanf("%d%d",&N,&K);
+    printf("%d",N^(1<<K));
+    return 0;
+}

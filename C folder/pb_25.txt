@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    char a;
+    scanf("%c",&a);
+    a=size of(char);
+    printf("%c",a);
+    return 0;
+  
+}

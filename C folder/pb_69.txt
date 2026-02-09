@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int num_1;
+    printf("Enter the number:");
+    scanf("%d",&num_1);
+    if(!num_1){
+        printf("ZERO");
+    }
+    else{
+        printf("NOT ZERO");
+    }
+return 0;
+}

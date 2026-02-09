@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+    int num;
+    printf("Enter the numbers:");
+    scanf("%d",&num);
+    if(num%3==0&&num%7==0){
+        printf("%d is divisible by 3 and 7",num);
+    }
+    else{
+        printf("Noy divisible by 3 and 7");
+    }
+
+
+    return 0;
+}
+
+    
