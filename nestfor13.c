@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main(){
-    for(int i=1;i<=15;i++){
-        for(int j=1;j<i+1;j++){ 
-            printf("%d ",i);
+    int num=1;
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=i;j++){ 
+            printf("%d ",num);
+            num++;
         }
         printf("\n");
     }
