@@ -1,0 +1,19 @@
+int maxDiff(int a[][100], int r, int c) {
+    int sum[100];
+
+    for(int i=0;i<r;i++){
+        sum[i]=0;
+        for(int j=0;j<c;j++){
+            sum[i]+=a[i][j];
+        }
+    }
+
+    int max=sum[0], min=sum[0];
+
+    for(int i=1;i<r;i++){
+        if(sum[i]>max) max=sum[i];
+        if(sum[i]<min) min=sum[i];
+    }
+
+    return max-min;
+}
